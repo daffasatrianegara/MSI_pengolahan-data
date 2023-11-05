@@ -52,7 +52,7 @@
     $sepakbola = mysqli_query($con, "SELECT COUNT(*) as jumlah_pengguna_sepakbola
     FROM data_user WHERE olahraga = 'sepak bola'");
     $basket = mysqli_query($con, "SELECT COUNT(*) as jumlah_pengguna_basket
-    FROM data_user WHERE olahraga = 'basket'");
+    FROM data_user WHERE olahraga = 'bola basket'");
     $bulutangkis = mysqli_query($con, "SELECT COUNT(*) as jumlah_pengguna_badminton
     FROM data_user WHERE olahraga = 'bulutangkis'");
 
