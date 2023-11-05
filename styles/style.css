@@ -1,0 +1,23 @@
+#myChart {
+    width: 400px !important;
+    height: 400px !important; 
+}
+
+#myChart2 {
+    width: 800px !important; 
+    height: 400px !important;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.chart-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
